@@ -1,0 +1,16 @@
+{
+    "name": "steve/wildschweintracker",
+    "authors": [
+        {
+            "name": "Steven San Diego",
+            "email": "5237@htl.rennweg.at"
+        }
+
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wildschweintracker"
+        }
+    },
+    "require": {}
+}
