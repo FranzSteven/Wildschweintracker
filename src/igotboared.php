@@ -12,7 +12,6 @@ if(isset($_POST["igotboared"])){
 
     $queryBuilder = $conn->createQueryBuilder();
 
-    echo $_POST["latitude"];
     $stmt = $queryBuilder
         ->insert('boar_attack')
         ->values(
@@ -32,3 +31,6 @@ if(isset($_POST["igotboared"])){
     
 
 }
+
+header("Location: ../index.php");
+exit();
